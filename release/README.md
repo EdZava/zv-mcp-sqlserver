@@ -2,7 +2,7 @@
 
 Paquete **standalone** para `uvx --from git+...@TAG?subdir=release`.
 
-## Cursor (`mcp.json`)
+## Cliente MCP (`mcp.json`)
 
 ```json
 "git+https://github.com/EdZava/zv-mcp-sqlserver.git#0.1.0-release.1?subdir=release"

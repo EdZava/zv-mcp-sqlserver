@@ -2,7 +2,7 @@
 
 ## Principios
 
-1. **Tag git fijado** en el consumidor (`mcp.json` de GestionG5).
+1. **Tag git fijado** en la configuracion del cliente MCP (`mcp.json` o equivalente).
 2. **`release/uv.lock`**: dependencias PyPI reproducibles al instalar con `uvx --from git+...@TAG?subdir=release`.
 3. Regenerar `release/` tras cambios en `pyproject.toml` o codigo fuente.
 
@@ -28,4 +28,4 @@ git push origin main --tags
 
 ## Reporte
 
-Incidencias de seguridad: mantenedor del fork EdZava.
+Incidencias de seguridad: abrir un issue privado o contactar al mantenedor del repositorio.
