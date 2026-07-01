@@ -36,3 +36,11 @@ mssql_mcp_server = "mssql_mcp_server:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mssql_mcp_server"]
+
+[dependency-groups]
+dev = [
+    "zv-mcp-release-toolkit @ git+ssh://git@github.com/EdZava/zv-mcp-release-toolkit.git@v0.2.0",
+    "uv>=0.1.0",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]

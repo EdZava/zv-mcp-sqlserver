@@ -1,7 +1,7 @@
 [project]
-name = "edzava-microsoft_sql_server_mcp"
-version = "0.1.0+edzava.1"
-description = "MCP SQL Server (fork EdZava, instalable desde release/)"
+name = "release-microsoft_sql_server_mcp"
+version = "0.1.0+release.1"
+description = "MCP SQL Server (empaquetado release/, instalable via uvx)"
 requires-python = ">=3.11"
 dependencies = [
   "mcp>=1.0.0",

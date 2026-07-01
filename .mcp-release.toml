@@ -1,0 +1,13 @@
+type = "python"
+
+[release]
+base_version = "0.1.0"
+release_suffix = "release.1"
+github_repo = "EdZava/zv-mcp-sqlserver"
+
+[python]
+src_package_dir = "mssql_mcp_server"
+description = "MCP SQL Server (empaquetado release/, instalable via uvx)"
+
+[python.scripts]
+mssql_mcp_server = "mssql_mcp_server:main"
