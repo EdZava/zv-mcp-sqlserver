@@ -1,6 +1,6 @@
 [project]
 name = "release-microsoft_sql_server_mcp"
-version = "0.1.0+release.1"
+version = "0.1.0+release.2"
 description = "MCP SQL Server (empaquetado release/, instalable via uvx)"
 requires-python = ">=3.11"
 dependencies = [
